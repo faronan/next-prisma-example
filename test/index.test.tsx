@@ -1,9 +1,9 @@
-import {shallow} from "enzyme";
-import Home from '../src/pages/index';
+import { shallow } from 'enzyme'
+import Home from '../src/pages/index'
 
-describe("Home", () => {
+describe('Home', () => {
   test("check h1 tag's text", () => {
-    const wrapper = shallow(<Home />);
-    expect(wrapper.find("h1").text()).toEqual("Welcome to Next.js!");
-  });
-});
+    const wrapper = shallow(<Home />)
+    expect(wrapper.find('h1').text()).toEqual('Welcome to Next.js!')
+  })
+})
