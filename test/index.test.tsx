@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import Home from "../src/pages/index";
+import Home from "@/pages/index";
 
 describe("Home", () => {
   test("check h1 tag's text", () => {
